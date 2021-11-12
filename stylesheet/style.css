@@ -6,10 +6,12 @@
          url('../font/Pacifico.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../font/Pacifico.svg#Pacifico') format('svg'); /* Legacy iOS */
 }
+
 body {
     background:transparent url(../images/background.jpg) no-repeat center top;
     background-size: cover;
 }
+
 header {
     position: absolute;
     top: 50%;
@@ -21,6 +23,51 @@ header {
     text-shadow: 3px 7px rgb(255, 145, 77);
     -webkit-text-stroke: 1px #966f5e;
 }
+
+input[type=text] {
+    background: #f5f4f2;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:40px;
+    width: 95%;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+.google {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 48px;
+    width: 400px;
+    background: #f5f4f2;
+    border-style: solid;
+    border-color: #966f5e;
+    border-radius: 15px;
+    box-shadow: 3px 7px rgb(255, 145, 77);
+}
+
 @media screen and (max-width: 768px) {
     body {
         background:transparent url(../images/background.jpg) !important;
@@ -28,5 +75,42 @@ header {
         background-position: center !important;
         background-position-x: 25% !important;
         background-position-y: 20% !important;
+    }
+    header {
+        font-size: 1.5em !important;
+    }
+    .google {
+        bottom: 25% !important;
+        width: 200px !important;
+    }
+    input[type=text] {
+        position: absolute !important;
+        height: 20px !important;
+        bottom: 30% !important;
+    }
+}
+@media screen and (max-width: 540px) {
+    header {
+        font-size: 1.4em !important;
+    }
+}
+@media screen and (max-width: 414px) {
+    header {
+        font-size: 1.3em !important;
+        width: 300px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    header {
+        font-size: 1.3em !important;
+        width: 300px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .google {
+        bottom: 15% !important;
+        width: 200px !important;
     }
 }
