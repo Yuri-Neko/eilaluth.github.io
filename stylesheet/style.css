@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../font/Pacifico.eot'); /* IE9 Compat Modes */
+    src: url('../font/Pacifico.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/Pacifico.woff') format('woff'), /* Modern Browsers */
+         url('../font/Pacifico.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/Pacifico.svg#Pacifico') format('svg'); /* Legacy iOS */
+}
+body {
+    background:transparent url(../images/background.jpg) no-repeat center top;
+    background-size: cover;
+}
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: #f5f4f2;
+    text-shadow: 3px 7px rgb(255, 145, 77);
+    -webkit-text-stroke: 1px #966f5e;
+}
+@media screen and (max-width: 768px) {
+    body {
+        background:transparent url(../images/background.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-position-x: 25% !important;
+        background-position-y: 20% !important;
+    }
+}
