@@ -89,6 +89,14 @@ input[type=text]:focus {
         bottom: 30% !important;
     }
 }
+@media screen and (max-width: 720px) {
+    header {
+        font-size: 1.5em !important;
+        width: 300px !important;
+        text-align: center !important;
+    }
+    
+}
 @media screen and (max-width: 540px) {
     header {
         font-size: 1.4em !important;
