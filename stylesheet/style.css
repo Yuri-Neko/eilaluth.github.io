@@ -76,6 +76,7 @@ input[type=text]:focus {
         background-position: center !important;
         background-position-x: 25% !important;
         background-position-y: 20% !important;
+        background-size: auto !important;
     }
     header {
         font-size: 1.5em !important;
@@ -91,6 +92,9 @@ input[type=text]:focus {
     }
 }
 @media screen and (max-width: 720px) {
+    body {
+        background-size: auto !important;
+    }
     header {
         font-size: 1.5em !important;
         width: 100% !important;
@@ -99,6 +103,9 @@ input[type=text]:focus {
     
 }
 @media screen and (max-width: 540px) {
+    body {
+        background-size: auto !important;
+    }
     header {
         font-size: 1.4em !important;
     }
@@ -107,6 +114,9 @@ input[type=text]:focus {
     }
 }
 @media screen and (max-width: 414px) {
+    body {
+        background-size: auto !important;
+    }
     header {
         font-size: 1.3em !important;
         width: 100% !important;
@@ -117,6 +127,9 @@ input[type=text]:focus {
     }
 }
 @media screen and (max-width: 375px) {
+    body {
+        background-size: auto !important;
+    }
     header {
         font-size: 1.3em !important;
         width: 100% !important;
@@ -127,6 +140,9 @@ input[type=text]:focus {
     }
 }
 @media screen and (max-width: 360px) {
+    body {
+         background-size: auto !important;
+    }
     .google {
          display: none !important;
     }
