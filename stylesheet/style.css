@@ -27,6 +27,7 @@ header {
 input[type=text] {
     background: #f5f4f2;
     border: none;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
