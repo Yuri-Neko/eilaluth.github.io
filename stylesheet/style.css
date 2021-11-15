@@ -101,12 +101,18 @@ input[type=text]:focus {
     header {
         font-size: 1.4em !important;
     }
+    .google {
+         display: none !important;
+    }
 }
 @media screen and (max-width: 414px) {
     header {
         font-size: 1.3em !important;
         width: 100% !important;
         text-align: center !important;
+    }
+    .google {
+         display: none !important;
     }
 }
 @media screen and (max-width: 375px) {
@@ -115,10 +121,12 @@ input[type=text]:focus {
         width: 100% !important;
         text-align: center !important;
     }
+    .google {
+         display: none !important;
+    }
 }
 @media screen and (max-width: 360px) {
     .google {
-        bottom: 15% !important;
-        width: 200px !important;
+         display: none !important;
     }
 }
